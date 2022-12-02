@@ -1,0 +1,71 @@
+\documentclass[12pt]{article}
+
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{subfiles}
+\begin{document}
+\author{Stefano Giulianelli}
+\title{Appunti Elettrotecnica}
+\date{Semestre I, 2022/2023}
+\maketitle{}
+\tableofcontents{}
+\newpage
+\section{Leggi}
+\subsection{Convenzioni}
+\subsubsection{Convenzione degli utilizzatori}
+La corrente entra nel positivo ed esce nel negativo.
+\subsubsection{Convenzione dei generatori}
+La corrente entra nel negativo ed esce nel positivo.
+\subsection{Potenza}
+$P = V * I$
+\subsection{Legge di Ohm}
+$V = I*R$, $I = \frac{V}{R}$, $R =\frac{V}{I}$
+\subsection{KVL: Legge di Kirchhoff per le tensioni}
+In una maglia (percorso chiuso), la somma delle tensioni è uguale a 0.
+\subsection{KCL: Legge di Kirchoff per le correnti}
+In un nodo, la somma delle correnti entranti sottratta la somma delle correnti uscenti è uguale a 0.
+\subsection{Partitore di tensione}
+$V_i = V\frac{R_i}{R_{eq}}$
+\subsection{Partitore di corrente}
+$I_1 = I\frac{R_2\parallel R_3\parallel R_4}{R_1 + R_2\parallel R_3\parallel R_4}$
+\subsection{Teorema di Millman}
+Due soli nodi devono essere presenti, ogni ramo deve contenere:
+\\- un resistore
+\\- un generatore di tensione e un resistore
+\\- un generatore di corrente
+\\Può contenere generatori dipendenti, che per la risoluzioni vengono considerati come indipendenti.
+\\$v = \frac{\sum_{k=1}^n G_k v_k + A}{\sum_{k=1}^nG_k} = \frac{v_1G_1+v_2G_2+v_3G_3+...+v_nG_n + A}{G_1+G_2+G_3+...+G_n}$
+\section{Componenti}
+\subsection{Generatori di tensioni}
+Se spento si sostituisce con un cortocircuito.
+\subsubsection{... in serie}
+$V_{eq} = V_1+V_2+V_3+...+V_n$
+\subsubsection{... in parallelo}
+Non ha senso avere dei generatori di tensione in parallelo.
+\subsection{Generatori di corrente}
+Se spento si sostituisce con un circuito aperto.
+\subsubsection{... in serie}
+Non ha senso avere dei generatori di corrente in serie.
+\subsubsection{... in parallelo}
+$I_{eq} = I_1+I_2+I_3+...+I_n$
+\subsection{Resistori}
+\subsubsection{... in serie}
+$R_{eq} = R_1 + R_2 + R_3 +...+R_n$
+\subsubsection{... in parallelo}
+$R_{eq} = \frac{1}{R_1}+\frac{1}{R_2}+\frac{1}{R_3}+...+\frac{1}{R_n}$
+\\$R_{eq} = \frac{R_1R_2}{R_1+R_2}$
+\subsection{Amplificatore operazionale}
+\subsubsection{Amplificatore operazionale invertente}
+Identificato dalla presenza di un generatore all'ingresso negativo.
+\\$v_{-} = v_{+} = 0$
+\subsubsection{Amplificatore operazionale non invertente}
+Identificato dalla presenza di un generatore ($V_s$) all'ingresso positivo.
+\\$v_{-} = v_{+} = v_s$
+\subsubsection{Sommatore}
+$v_o = -R_o\left(\frac{v_1}{R_1}+\frac{v_2}{R_2}+\frac{v_3}{R_3}\right)$
+\subsubsection{Amplificatore differenziale}
+$v_u= \left(1+\frac{R_2}{R_1}\right)\frac{R_4}{R_3+R_4}v_{s2}-\frac{R_2}{R_1}v_{s1}$
+\subsubsection{Amplificatori operazionale in cascata}
+$\frac{v_o}{v_{in}}=\left(-\frac{R_2}{R_1}\right)\left(-\frac{R_4}{R_3}\right)$
+
+\end{document}

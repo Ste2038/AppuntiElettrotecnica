@@ -1,0 +1,27 @@
+\contentsline {section}{\numberline {1}Leggi}{3}{}%
+\contentsline {subsection}{\numberline {1.1}Convenzioni}{3}{}%
+\contentsline {subsubsection}{\numberline {1.1.1}Convenzione degli utilizzatori}{3}{}%
+\contentsline {subsubsection}{\numberline {1.1.2}Convenzione dei generatori}{3}{}%
+\contentsline {subsection}{\numberline {1.2}Potenza}{3}{}%
+\contentsline {subsection}{\numberline {1.3}Legge di Ohm}{3}{}%
+\contentsline {subsection}{\numberline {1.4}KVL: Legge di Kirchhoff per le tensioni}{3}{}%
+\contentsline {subsection}{\numberline {1.5}KCL: Legge di Kirchoff per le correnti}{3}{}%
+\contentsline {subsection}{\numberline {1.6}Partitore di tensione}{3}{}%
+\contentsline {subsection}{\numberline {1.7}Partitore di corrente}{3}{}%
+\contentsline {subsection}{\numberline {1.8}Teorema di Millman}{4}{}%
+\contentsline {section}{\numberline {2}Componenti}{4}{}%
+\contentsline {subsection}{\numberline {2.1}Generatori di tensioni}{4}{}%
+\contentsline {subsubsection}{\numberline {2.1.1}... in serie}{4}{}%
+\contentsline {subsubsection}{\numberline {2.1.2}... in parallelo}{4}{}%
+\contentsline {subsection}{\numberline {2.2}Generatori di corrente}{4}{}%
+\contentsline {subsubsection}{\numberline {2.2.1}... in serie}{4}{}%
+\contentsline {subsubsection}{\numberline {2.2.2}... in parallelo}{4}{}%
+\contentsline {subsection}{\numberline {2.3}Resistori}{5}{}%
+\contentsline {subsubsection}{\numberline {2.3.1}... in serie}{5}{}%
+\contentsline {subsubsection}{\numberline {2.3.2}... in parallelo}{5}{}%
+\contentsline {subsection}{\numberline {2.4}Amplificatore operazionale}{5}{}%
+\contentsline {subsubsection}{\numberline {2.4.1}Amplificatore operazionale invertente}{5}{}%
+\contentsline {subsubsection}{\numberline {2.4.2}Amplificatore operazionale non invertente}{5}{}%
+\contentsline {subsubsection}{\numberline {2.4.3}Sommatore}{5}{}%
+\contentsline {subsubsection}{\numberline {2.4.4}Amplificatore differenziale}{5}{}%
+\contentsline {subsubsection}{\numberline {2.4.5}Amplificatori operazionale in cascata}{5}{}%
